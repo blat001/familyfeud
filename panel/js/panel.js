@@ -20,7 +20,7 @@ var missPointTeam2 = 0;
 				game.document.getElementById("idcLogo").style.width = '15%';
 				game.document.getElementById("counter").innerHTML = "BaÅŸlayalÄ±m";
 				game.document.getElementById("counter").style.display = "none";	
-				game.document.body.setAttribute("style", "background: linear-gradient(to bottom, #a7cfdf -50%, #580e12 100%);");
+				//game.document.body.setAttribute("style", "background: linear-gradient(to bottom, #a7cfdf -50%, #580e12 100%);");
 				game.app.init();
 				
 			}
