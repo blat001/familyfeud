@@ -104,7 +104,7 @@ var missPointTeam2 = 0;
 			document.getElementById("misspoint2").innerHTML = missPointTeam2;
 		}	
 		printMissPoint();
-		play_sound('ff-strike');
+		play_sound('ff-strike.wav');
 	}
 	
 	function nextQuestion(){
