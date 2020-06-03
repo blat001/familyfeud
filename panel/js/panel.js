@@ -5,7 +5,7 @@ var missPointTeam1 = 0;
 var missPointTeam2 = 0;
 
 	function start_game(){	
-		play_sound('ff_open');
+		play_sound('ff_open.ogg');
 		document.getElementById("buttonStart").disabled = true;
 			
 		var counter = 33;
@@ -126,7 +126,7 @@ var missPointTeam2 = 0;
 			game.document.getElementById("awardTeam2").click();
 		}
 		
-	play_sound('ff_dogru');
+	play_sound('ff_dogru.mp3');
 	}
 	
 	function GetQuestion(questionParam){
