@@ -150,13 +150,13 @@ var missPointTeam2 = 0;
 				var tempBgColor = this.style.backgroundColor;
 				if(tempBgColor == ""){
 					this.setAttribute("style", "background-color: lightgreen;");
-					play_sound('ff-clang');
+					play_sound('ff-clang.wav');
 				}
 				else if(tempBgColor == "lightgreen"){
 					this.setAttribute("style", "background-color: ;");
 				}
 			}  
-			cell1.innerHTML = i;
+			cell1.innerHTML = i+1;
 			cell2.innerHTML = answers[i][0];
 			cell3.innerHTML = answers[i][1];
 			
