@@ -52,7 +52,7 @@ var app = {
   },
   jsonLoaded: function(data){
     //console.clear()
-    console.write(data)
+    console.log(data)
     app.allData   = data
     app.questions = Object.keys(data)
     app.shuffle(app.questions)
